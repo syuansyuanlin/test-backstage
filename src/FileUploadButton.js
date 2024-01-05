@@ -35,7 +35,7 @@ const FileUploadButton = () => {
       {/* 按鈕觸發彈跳視窗顯示 */}
       <button
         onClick={() => setShowPopup(true)}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-red-700 hover:bg-orange-700 text-white font-semibold py-2 px-3 rounded-lg focus:outline-none focus:shadow-outline ml-2 "
       >
         上傳檔案
       </button>
@@ -69,7 +69,7 @@ const FileUploadButton = () => {
                 {/* 顯示重設按鈕 */}
                 <button
                   onClick={handleReset}
-                  className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mt-2"
+                  className="bg-gray-500 hover:bg-gray-300 text-white font-semibold py-2 px-3 rounded-lg focus:outline-none focus:shadow-outline ml-2 "
                 >
                   重設
                 </button>
@@ -103,7 +103,7 @@ const FileUploadButton = () => {
             {/* 上傳檔案按鈕 */}
             <button
               onClick={handleFileUpload}
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="bg-red-700 hover:bg-orange-700 text-white font-semibold py-2 px-3 rounded-lg focus:outline-none focus:shadow-outline ml-2 "
             >
               上傳檔案
             </button>
@@ -111,7 +111,7 @@ const FileUploadButton = () => {
             {/* 取消按鈕 */}
             <button
               onClick={handleCancel}
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-2"
+              className="bg-red-700 hover:bg-orange-700 text-white font-semibold py-2 px-3 rounded-lg focus:outline-none focus:shadow-outline ml-2 "
             >
               取消
             </button>

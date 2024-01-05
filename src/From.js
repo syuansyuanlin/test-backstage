@@ -78,7 +78,7 @@ const From = () => {
           </div>
           <div className="flex justify-end mt-4">
             <button
-              className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline"
+              className="bg-red-700 hover:bg-orange-700 text-white font-semibold py-2 px-3 rounded-lg focus:outline-none focus:shadow-outline ml-2 "
               type="button"
             >
               搜尋
