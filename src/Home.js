@@ -19,6 +19,12 @@ const Home = () => {
         >
           搜尋
         </button>
+        <button
+          className="bg-red-700 hover:bg-orange-700 text-white font-semibold py-2 px-3 rounded-lg focus:outline-none focus:shadow-outline ml-2 "
+          type="button"
+        >
+          新增
+        </button>
       </div>
     </>
   );
